@@ -46,27 +46,29 @@ const Contact = () => {
     <>
       <div className="relative bg-center mb-36">
         <img src={ContactImg} alt="Contact Images" className="w-full h-80 object-cover" />
-        <h1 className="absolute top-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl lg:text-7xl font-black text-white">
+        <h1 className="absolute top-1/2 lg:right-80 right-10 transform 
+        -translate-x-1/2 -translate-y-1/2 text-5xl lg:text-7xl font-black text-white">
           Contact Us
         </h1>
       </div>
       <div className="flex justify-evenly items-center flex-wrap">
-        <div>
-          <h1>Let's talk with us</h1>
-          <span className="mb-5">
-            Questions, comments, or suggestions? Simply fill in the form, and we'll be in touch shortly.
+        <div className=" mb-12 lg:ml-1 ml-5">
+          <h1 className="text-3xl font-bold mb-3">Let's talk with us</h1>
+          <span className="my-5 text-lg">
+            Questions, comments, or suggestions? 
+            Simply fill in the form, and we'll be in touch shortly.
           </span>
           <div className="space-y-5">
-            <div className="flex">
-              <FiMapPin />
+            <div className="flex mt-12">
+              <FiMapPin className=" text-efrct text-2xl mr-5"/>
               <span>1055 Arthur Ave Elk Groot, 67. New Palmas South Carolina</span>
             </div>
             <div className="flex">
-              <FiPhoneCall />
+              <FiPhoneCall className=" text-efrct text-2xl mr-5"/>
               <span>+1 234 678 9108 99</span>
             </div>
             <div className="flex">
-              <FiMail />
+              <FiMail className=" text-efrct text-2xl mr-5"/>
               <span>Contact@moralizer.com</span>
             </div>
           </div>
