@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch&display=swap');
+body{
+  background-color: #0f041c;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+input, textarea{
+  outline: none;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.1s ease-in;
+}
+.Logo{
+  font-family: 'Sarpanch', sans-serif;
+}
+
+.swiper-button-next , .swiper-button-prev{
+position: relative !important;
+color: #3ddeed !important;
+font-size: 18px !important;
+}
+
+
+.validationmasseg{
+display: flex;
+justify-content: space-between;
+text-align: right;
+ font-size: 13px; 
+ top: 0px;
+ background: red;
+}
